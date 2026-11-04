@@ -1,0 +1,29 @@
+{
+  "name": "seguros-advisers",
+  "version": "2.0.0",
+  "description": "Sistema de Gestión para Seguros ADVISERS (León, Nicaragua) - Backend Node.js / Express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "seguros",
+    "advisers",
+    "express",
+    "mysql",
+    "nicaragua",
+    "siboif"
+  ],
+  "author": "Jorvin Arteaga, Francisco Bravo, Joshua Salazar",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.9.7"
+  }
+}
